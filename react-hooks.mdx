@@ -2,7 +2,11 @@
 title: "React Hooks: Fishing for Components in the React Sea"
 description: Explore the amusing analogy of React Hooks as fishing tools designed to catch components in the vast sea of React development. Learn how to use useState, useEffect, and useContext to manage your catch effectively.
 date: 2024-02-26
+tags: ["code", "react", "props"]
 published: true
+featured_image: https://picsum.photos/1080
+author: Prabhat
+category: React
 ---
 
 # React Hooks: Fishing for Components
@@ -13,9 +17,9 @@ In the vast sea of React, where components swim freely and side-effects lurk in 
 
 Before we set sail, let's ensure we have all the necessary gear:
 
-- **useState:** The worm that tempts your components to the surface.
-- **useEffect:** The lure that attracts side-effects and keeps them at bay.
-- **useContext:** The net that gathers global states together, making it easier to share across your component sea.
+-   **useState:** The worm that tempts your components to the surface.
+-   **useEffect:** The lure that attracts side-effects and keeps them at bay.
+-   **useContext:** The net that gathers global states together, making it easier to share across your component sea.
 
 ## Setting Sail: Your First Catch
 
@@ -31,7 +35,7 @@ const [fish, setFish] = useState("🐟");
 
 ```jsx
 useEffect(() => {
-  console.log(`You've caught ${fish}!`);
+    console.log(`You've caught ${fish}!`);
 }, [fish]);
 ```
 

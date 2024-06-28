@@ -1,5 +1,20 @@
-{
-    "code-blocks": {
+[
+    {
+        "title": "Hello World",
+        "description": "This is our first blog post. Really cool",
+        "date": "2024-03-06",
+        "tags": [
+            "code",
+            "blog"
+        ],
+        "published": true,
+        "featured_image": "https://picsum.photos/1080",
+        "author": "Prabhat",
+        "category": "React",
+        "slug": "hello-world",
+        "readingTime": 1
+    },
+    {
         "title": "Lets see what we can do with rehype pretty code",
         "description": "Syntax highlighting, line numbers, line highlights, word highlights",
         "date": "2024-03-04",
@@ -10,9 +25,60 @@
         ],
         "published": true,
         "featured_image": "https://picsum.photos/1080",
-        "author": "Prabhat"
+        "author": "Prabhat",
+        "category": "React",
+        "slug": "code-blocks",
+        "readingTime": 3
     },
-    "disappearing-props": {
+    {
+        "title": "Unity vs. Unreal Engine Choosing the Right Game Engine",
+        "description": "Syntax highlighting, line numbers, line highlights, word highlights",
+        "date": "2024-03-04",
+        "tags": [
+            "code",
+            "rehype pretty",
+            "mdx"
+        ],
+        "published": true,
+        "featured_image": "https://picsum.photos/1080",
+        "author": "Prabhat",
+        "category": "unity",
+        "slug": "unity-vs-unreal-engine",
+        "readingTime": 12
+    },
+    {
+        "title": "Github Flavoured Markdown CheatSheet",
+        "description": "A markdown cheat sheet for GFM",
+        "date": "2024-03-03",
+        "tags": [
+            "code",
+            "react",
+            "props"
+        ],
+        "published": true,
+        "featured_image": "https://picsum.photos/1080",
+        "author": "Prabhat",
+        "category": "React",
+        "slug": "github-markdown-test",
+        "readingTime": 4
+    },
+    {
+        "title": "Github Flavoured Markdown CheatSheet",
+        "description": "A markdown cheat sheet for GFM",
+        "date": "2024-03-03",
+        "tags": [
+            "code",
+            "react",
+            "props"
+        ],
+        "published": true,
+        "featured_image": "https://picsum.photos/1080",
+        "author": "Prabhat",
+        "category": "React",
+        "slug": "github-markdown",
+        "readingTime": 4
+    },
+    {
         "title": "The Mysterious Case of the Disappearing Props",
         "description": "Join us on a humorous detective journey to solve the mystery of disappearing props in a React application. Learn troubleshooting tips and best practices to prevent your props from vanishing into thin air.",
         "date": "2024-03-01",
@@ -21,31 +87,14 @@
             "react",
             "props"
         ],
-        "published": true
+        "published": true,
+        "featured_image": "https://picsum.photos/1080",
+        "author": "Prabhat",
+        "category": "React",
+        "slug": "disappearing-props",
+        "readingTime": 3
     },
-    "github-markdown-test": {
-        "title": "Github Flavoured Markdown CheatSheet",
-        "description": "A markdown cheat sheet for GFM",
-        "date": "2024-03-03",
-        "published": true
-    },
-    "github-markdown": {
-        "title": "Github Flavoured Markdown CheatSheet",
-        "description": "A markdown cheat sheet for GFM",
-        "date": "2024-03-03",
-        "published": true
-    },
-    "hello-world": {
-        "title": "Hello World",
-        "description": "This is our first blog post. Really cool",
-        "date": "2024-03-06",
-        "tags": [
-            "code",
-            "blog"
-        ],
-        "published": true
-    },
-    "prop-drilling": {
+    {
         "title": "Prop Drilling: The Horror Movie - A Tale of React Components",
         "description": "Step into a spine-chilling narrative where React components face the dread of prop drilling. Discover how using Context API or Redux can save your components from the depths of despair in this humorous take on a common React challenge.",
         "date": "2024-02-28",
@@ -54,39 +103,89 @@
             "react",
             "props"
         ],
-        "published": true
+        "published": true,
+        "featured_image": "https://picsum.photos/1080",
+        "author": "Prabhat",
+        "category": "React",
+        "slug": "prop-drilling",
+        "readingTime": 3
     },
-    "react-debug-magic": {
+    {
         "title": "Debugging React with Wizardry and Magic: A Developer's Spellbook",
         "description": "Enter the mystical world of debugging React applications with a touch of humor. Learn spells and incantations to banish bugs and optimize your code, all while navigating the enchanting forest of React development.",
         "date": "2024-02-27",
         "tags": [
             "react"
         ],
-        "published": true
+        "published": true,
+        "featured_image": "https://picsum.photos/1080",
+        "author": "Prabhat",
+        "category": "React",
+        "slug": "react-debug-magic",
+        "readingTime": 3
     },
-    "react-hooks": {
+    {
         "title": "React Hooks: Fishing for Components in the React Sea",
         "description": "Explore the amusing analogy of React Hooks as fishing tools designed to catch components in the vast sea of React development. Learn how to use useState, useEffect, and useContext to manage your catch effectively.",
         "date": "2024-02-26",
-        "published": true
+        "tags": [
+            "code",
+            "react",
+            "props"
+        ],
+        "published": true,
+        "featured_image": "https://picsum.photos/1080",
+        "author": "Prabhat",
+        "category": "React",
+        "slug": "react-hooks",
+        "readingTime": 3
     },
-    "react-lifecycle-cats": {
+    {
         "title": "The Lifecycle of a React Component, As Told by Cats",
         "description": "A whimsical exploration of the React component lifecycle, with each stage humorously explained through the behavior of cats. Perfect for developers looking to understand lifecycle methods in a more relatable and entertaining way.",
         "date": "2024-02-25",
-        "published": true
+        "tags": [
+            "code",
+            "react",
+            "props"
+        ],
+        "published": true,
+        "featured_image": "https://picsum.photos/1080",
+        "author": "Prabhat",
+        "category": "React",
+        "slug": "react-lifecycle-cats",
+        "readingTime": 3
     },
-    "react-state-management": {
+    {
         "title": "React State Management: An Epic Tale of Love, Loss, and Redux",
         "description": "Embark on a dramatic journey through the realm of React state management. Witness the love triangles, betrayals, and heartaches that components face as they navigate the complex world of state management, with a special appearance by Redux.",
         "date": "2024-02-24",
-        "published": true
+        "tags": [
+            "code",
+            "react",
+            "props"
+        ],
+        "published": true,
+        "featured_image": "https://picsum.photos/1080",
+        "author": "Prabhat",
+        "category": "React",
+        "slug": "react-state-management",
+        "readingTime": 3
     },
-    "summon-component": {
+    {
         "title": "How to Summon a React Component: A Beginner's Guide",
         "description": "Dive into the mystical world of React and learn the incantations needed to summon your very first React component with humor and ease.",
         "date": "2024-02-23",
-        "published": true
+        "tags": [
+            "code",
+            "react",
+            "props"
+        ],
+        "published": true,
+        "featured_image": "https://picsum.photos/1080",
+        "author": "Prabhat",
+        "category": "React",
+        "slug": "summon-component",
+        "readingTime": 2
     }
-}
+]

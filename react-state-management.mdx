@@ -2,7 +2,11 @@
 title: "React State Management: An Epic Tale of Love, Loss, and Redux"
 description: Embark on a dramatic journey through the realm of React state management. Witness the love triangles, betrayals, and heartaches that components face as they navigate the complex world of state management, with a special appearance by Redux.
 date: 2024-02-24
+tags: ["code", "react", "props"]
 published: true
+featured_image: https://picsum.photos/1080
+author: Prabhat
+category: React
 ---
 
 # React State Management: A Soap Opera
@@ -23,7 +27,7 @@ But as in any good soap opera, there's a twist. A sibling component, envious of 
 
 ```jsx
 const DramaComponent = ({ love }) => {
-  return <div>{`The love is now shared: ${love}`}</div>;
+    return <div>{`The love is now shared: ${love}`}</div>;
 };
 ```
 
@@ -33,12 +37,12 @@ Just when all seems lost, a new character enters the scene: Redux. With its powe
 
 ```jsx
 const loveReducer = (state = "undeniable", action) => {
-  switch (action.type) {
-    case "SHARE_LOVE":
-      return action.love;
-    default:
-      return state;
-  }
+    switch (action.type) {
+        case "SHARE_LOVE":
+            return action.love;
+        default:
+            return state;
+    }
 };
 ```
 

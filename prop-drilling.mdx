@@ -4,6 +4,9 @@ description: Step into a spine-chilling narrative where React components face th
 date: 2024-02-28
 tags: ["code", "react", "props"]
 published: true
+featured_image: https://picsum.photos/1080
+author: Prabhat
+category: React
 ---
 
 # Prop Drilling: The Horror Movie
@@ -31,10 +34,8 @@ Just when all hope seems lost, heroes emerge from the shadows: the Context API a
 ```jsx
 const TerrorContext = React.createContext();
 const TerrorProvider = ({ children }) => {
-  const [terror, setTerror] = useState("everywhere");
-  return (
-    <TerrorContext.Provider value={terror}>{children}</TerrorContext.Provider>
-  );
+    const [terror, setTerror] = useState("everywhere");
+    return <TerrorContext.Provider value={terror}>{children}</TerrorContext.Provider>;
 };
 ```
 
